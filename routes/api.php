@@ -18,4 +18,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/api/image/gen', 'ImageGenController@genImage');
+Route::post('/image/gen', '\App\Http\Controllers\ImageGenController@genImage');
