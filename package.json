@@ -16,6 +16,7 @@
     },
     "dependencies": {
         "@inertiajs/svelte": "^1.0.14",
-        "daisyui": "^4.6.1"
+        "daisyui": "^4.6.1",
+        "svelte-french-toast": "^1.2.0"
     }
 }
